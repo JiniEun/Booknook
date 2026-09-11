@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 펼쳐진 책 실루엣, 중앙 책등은 포인트 컬러 -->
+    <path
+        android:fillColor="@color/booknook_black"
+        android:pathData="M54,36 C46,29 30,27 21,31 L21,73 C30,69 46,71 54,79 C62,71 78,69 87,73 L87,31 C78,27 62,29 54,36 Z" />
+    <path
+        android:fillColor="@color/booknook_accent"
+        android:pathData="M53,38 L55,38 L55,77 L53,77 Z" />
+</vector>

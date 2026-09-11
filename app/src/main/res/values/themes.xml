@@ -1,0 +1,8 @@
+<resources>
+    <!-- 고대비 흑백 베이스 + 포인트 컬러 1개 (e-ink 친화) -->
+    <style name="Theme.Booknook" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/booknook_accent</item>
+        <item name="colorPrimaryDark">@color/booknook_black</item>
+        <item name="android:windowBackground">@color/booknook_white</item>
+    </style>
+</resources>

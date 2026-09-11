@@ -1,0 +1,7 @@
+<resources>
+    <color name="booknook_white">#FFFFFF</color>
+    <color name="booknook_black">#1A1A1A</color>
+    <color name="booknook_gray">#666666</color>
+    <!-- 포인트 컬러 1개만 사용 (e-ink 대비 고려) -->
+    <color name="booknook_accent">#3D5A80</color>
+</resources>

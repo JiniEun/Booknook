@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- API 26 미만(어댑티브 아이콘 미지원) 폴백: 배경 + 전경을 합쳐 하나의 벡터로 -->
+    <path
+        android:fillColor="@color/booknook_white"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+    <path
+        android:fillColor="@color/booknook_black"
+        android:pathData="M54,36 C46,29 30,27 21,31 L21,73 C30,69 46,71 54,79 C62,71 78,69 87,73 L87,31 C78,27 62,29 54,36 Z" />
+    <path
+        android:fillColor="@color/booknook_accent"
+        android:pathData="M53,38 L55,38 L55,77 L53,77 Z" />
+</vector>
