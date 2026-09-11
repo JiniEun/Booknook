@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">책다락</string>
+
+    <!-- 홈 화면 -->
+    <string name="home_streak_format">🔥 %1$d일 연속 기록 중</string>
+    <string name="home_streak_zero">오늘부터 다시 기록해볼까요?</string>
+    <string name="home_current_book_label">읽는 중인 책</string>
+    <string name="home_no_current_book">지금 읽는 중인 책이 없어요</string>
+    <string name="home_progress_format">%1$d%%</string>
+    <string name="home_quick_record_button">오늘의 기록</string>
+    <string name="home_quick_record_placeholder">빠른 기록 화면은 다음 업데이트에서 만나요</string>
+    <string name="home_mascot_message_streak_0">책이랑 다시 친해질 시간이에요</string>
+    <string name="home_mascot_message_streak_low">좋은 시작이에요!</string>
+    <string name="home_mascot_message_streak_mid">리듬 타는 중이에요</string>
+    <string name="home_mascot_message_streak_high">완전 습관됐어요</string>
 </resources>

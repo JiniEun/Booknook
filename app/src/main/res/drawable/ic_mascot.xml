@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- 마스코트 placeholder: 완독 권수에 따라 나중에 다른 단계 이미지로 교체 예정 -->
+    <path
+        android:fillColor="@color/booknook_white"
+        android:strokeColor="@color/booknook_black"
+        android:strokeWidth="4"
+        android:pathData="M48,8 C25.9,8 8,25.9 8,48 C8,70.1 25.9,88 48,88 C70.1,88 88,70.1 88,48 C88,25.9 70.1,8 48,8 Z" />
+    <path
+        android:fillColor="@color/booknook_black"
+        android:pathData="M34,44 m-5,0 a5,5 0,1 1,10 0 a5,5 0,1 1,-10 0" />
+    <path
+        android:fillColor="@color/booknook_black"
+        android:pathData="M62,44 m-5,0 a5,5 0,1 1,10 0 a5,5 0,1 1,-10 0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="@color/booknook_accent"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M32,60 C40,70 56,70 64,60" />
+</vector>
