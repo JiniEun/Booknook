@@ -1,5 +1,6 @@
 package com.booknook.app.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var repository: LocalBookRepository
+    private var currentBook: Book? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,8 +33,14 @@ class MainActivity : AppCompatActivity() {
         repository = LocalBookRepository(db)
 
         binding.quickRecordButton.setOnClickListener {
-            // TODO: 빠른 기록 화면 만들면 여기서 이동시키기 ("다음 할 일" 2번)
-            Toast.makeText(this, getString(R.string.home_quick_record_placeholder), Toast.LENGTH_SHORT).show()
+            val book = currentBook
+            if (book != null) {
+                startActivity(Intent(this, QuickRecordActivity::class.java).apply {
+                    putExtra(QuickRecordActivity.EXTRA_BOOK_ID, book.id)
+                })
+            } else {
+                Toast.makeText(this, getString(R.string.home_no_current_book), Toast.LENGTH_SHORT).show()
+            }
         }
 
         observeCurrentBook()
@@ -50,6 +58,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun bindCurrentBook(book: Book?) {
+        currentBook = book
         if (book == null) {
             binding.currentBookCard.visibility = View.GONE
             binding.emptyBookText.visibility = View.VISIBLE

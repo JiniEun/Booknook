@@ -8,9 +8,18 @@
     <string name="home_no_current_book">지금 읽는 중인 책이 없어요</string>
     <string name="home_progress_format">%1$d%%</string>
     <string name="home_quick_record_button">오늘의 기록</string>
-    <string name="home_quick_record_placeholder">빠른 기록 화면은 다음 업데이트에서 만나요</string>
     <string name="home_mascot_message_streak_0">책이랑 다시 친해질 시간이에요</string>
     <string name="home_mascot_message_streak_low">좋은 시작이에요!</string>
     <string name="home_mascot_message_streak_mid">리듬 타는 중이에요</string>
     <string name="home_mascot_message_streak_high">완전 습관됐어요</string>
+
+    <!-- 빠른 기록 화면 -->
+    <string name="quick_record_title_format">%1$s 오늘의 기록</string>
+    <string name="quick_record_progress_label">진행률</string>
+    <string name="quick_record_progress_format">%1$d%%</string>
+    <string name="quick_record_pages_label">오늘 읽은 페이지 수 (선택)</string>
+    <string name="quick_record_pages_hint">예: 20</string>
+    <string name="quick_record_save_button">저장</string>
+    <string name="quick_record_saved_toast">기록했어요</string>
+    <string name="quick_record_completed_toast">완독을 축하해요!</string>
 </resources>
